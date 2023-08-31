@@ -1,47 +1,18 @@
 const express = require("express");
-const path = require("path");
 const fs = require("fs");
 const app = express();
+const cors = require("cors");
+const videos = require("./routes/videosRouter");
+const port = process.env.PORT || 5050;
 
-// Define paths to JSON data files
-const videoDataPath = path.join(__dirname, "data", "video-details.json");
-const liveStreamDataPath = path.join(
-  __dirname,
-  "data",
-  "livestream-details.json"
-);
-
-// Middleware to handle CORS (if needed)
+app.use(express.json());
 app.use(cors());
+app.use(express.static("public"));
 
-// Route handler to get video details
-app.get("/api/videos", (req, res) => {
-  fs.readFile(videoDataPath, "utf8", (err, data) => {
-    if (err) {
-      console.error("Error reading video data:", err);
-      res.status(500).json({ error: "Internal server error" });
-      return;
-    }
-
-    res.json(JSON.parse(data));
-  });
-});
-
-// Route handler to get livestream details
-app.get("/api/livestreams", (req, res) => {
-  fs.readFile(liveStreamDataPath, "utf8", (err, data) => {
-    if (err) {
-      console.error("Error reading livestream data:", err);
-      res.status(500).json({ error: "Internal server error" });
-      return;
-    }
-
-    res.json(JSON.parse(data));
-  });
-});
+app.use("/video-library", videos);
 
 // Start the server
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5050;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
