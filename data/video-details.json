@@ -1,0 +1,54 @@
+{
+  "theme": [
+    {
+      "id": "84e96018-4022-434e-80bf-000ce4cdcc5",
+      "title": "Healthy & Vitality",
+      "description": "Discover a life of wellness and energy. Uncover the path to vitality through holistic health practices, nourishing body and mind."
+    }
+  ],
+  "videos": [
+    {
+      "id": "84e96018-4022-434e-80bf-000ce4cd12b8",
+      "title": "Secret of Water",
+      "channel": "Healthy & Vitality",
+      "image": "water_snowflake.png",
+      "theme": {
+        "id": "1",
+        "title": "Healthy & Vitality",
+        "description": "Discover a life of wellness and energy. Uncover the path to vitality through holistic health practices, nourishing body and mind."
+      },
+      "description": "Water is a living substance, the most common and least understood. It defies the basic laws of physics, yet holds the keys to life. Known to the ancients as a transmitter to and from the higher realms, water retains hidden messages and conveys information to DNA.\nHowever, water can die if treated poorly. Our use and misuse of this precious resource has altered the vital information it carries in unexpected ways. Influences such as sound, thoughts, intention and prayer, as well as toxins such as chlorine, structure water’s molecular arrangement – affecting all it comes in contact with. Prominent scientists help reveal the secret of water, allowing us to use its healing power for human beings and our planet.",
+      "views": "2,002",
+      "likes": "1,385",
+      "duration": "4:01",
+      "videoUrl": "https://player.vimeo.com/video/858797218",
+      "timestamp": 1626032763000,
+      "directors": "Directors: Jirka Rysavy, Saida Medvedeva",
+      "languages": "Audio Languages: English, Español, Deutsch, Français",
+      "subtitles": "Subtitles: English, Español, Français, Deutsch",
+      "comments": [
+        {
+          "id": "35bba08b-1b51-4153-ba7e-6da76b5ec1b9",
+          "name": "Michael Lyons",
+          "comment": "Distilled water does not have minerals, salt, .... It's pure water, so only molecule H2O. I believe that the mice that drink distilled water died because distilled water attracts (through osmosis) important minerals and other water-soluble nutrients out of the cells. In the long run, these mice die because of a lack of minerals.",
+          "likes": 45,
+          "timestamp": 1628522461000
+        },
+        {
+          "id": "091de676-61af-4ee6-90de-3a7a53af7521",
+          "name": "Gary Coutirier",
+          "comment": "J'ai beaucoup aimé, dorénavant je vais faire jouer de la musique relaxante avant de boire l'eau dans ma carafe.",
+          "likes": 5,
+          "timestamp": 1626359541000
+        },
+        {
+          "id": "66b7d3c7-4023-47f1-a02c-520c9ca187a6",
+          "name": "Theodore Duncan",
+          "comment": "I recently went through Dr. Emoto's book, 'The Hidden Messages In Water'. It is a must-read. I enjoyed this video as much as I enjoyed the book. The video is done fantastically. Thank you so much. This is such an important message.",
+          "likes": 45,
+          "timestamp": 1626011132000
+        }
+      ]
+    }
+  ]
+}
