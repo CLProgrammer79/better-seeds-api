@@ -13,46 +13,44 @@ router.get("/", (req, res) => {
   const videosObject = JSON.parse(videosJson);
 
   // Extract themes, videos, and comments
-  const themes = videosObject.theme;
-  const videos = videosObject.videos;
-  const comments = videos.flatMap((video) => video.comments);
 
   // Extract selected fields for themes
-  const themesWithSelectedFields = themes.map((theme) => ({
-    id: theme.id,
-    title: theme.title,
-    description: theme.description,
-  }));
+  // const themesWithSelectedFields = themes.map((theme) => ({
+  //   id: theme.id,
+  //   title: theme.title,
+  //   description: theme.description,
+  // }));
 
-  console.log("Themes with selected fields:", themesWithSelectedFields);
+  // console.log("Themes with selected fields:", themesWithSelectedFields);
 
   // Extract selected fields for videos
-  const videosWithSelectedFields = videos.map((video) => ({
+  const videosWithSelectedFields = videosObject.map((video) => ({
     id: video.id,
     title: video.title,
     description: video.description,
     image: serverUrl + "images/" + video.image,
     videoUrl: video.videoUrl,
     theme: video.theme,
+    comments: video.comments,
   }));
 
   console.log("Videos with selected fields:", videosWithSelectedFields);
 
   // Extract selected fields for comments
-  const commentsWithSelectedFields = comments.map((comment) => ({
-    id: comment.id,
-    name: comment.name,
-    comment: comment.comment,
-    likes: comment.likes,
-    timestamp: comment.timestamp,
-  }));
+  // const commentsWithSelectedFields = videosObject.comments.map((comment) => ({
+  //   id: comment.id,
+  //   name: comment.name,
+  //   comment: comment.comment,
+  //   likes: comment.likes,
+  //   timestamp: comment.timestamp,
+  // }));
 
-  console.log("Comments with selected fields:", commentsWithSelectedFields);
+  // console.log("Comments with selected fields:", commentsWithSelectedFields);
 
   const extractedData = {
-    themes: themesWithSelectedFields,
+    // themes: themesWithSelectedFields,
     videos: videosWithSelectedFields,
-    comments: commentsWithSelectedFields,
+    // comments: commentsWithSelectedFields,
   };
 
   console.log("Extracted Data:", extractedData);
