@@ -51,7 +51,7 @@
     "id": "1b",
     "title": "Secret of Water-2",
     "channel": "Health and Lifestyle Balance",
-    "image": "send-heart.jpg",
+    "image": "theme1-img2.jpg",
     "description": "Water is a living substance...",
     "views": "2,002",
     "likes": "1,385",
@@ -94,7 +94,7 @@
     "id": "1c",
     "title": "Secret of Water -3",
     "channel": "Health and Lifestyle Balance",
-    "image": "water_snowflake.png",
+    "image": "theme1-img3.jpg",
     "description": "Water is a living substance...",
     "views": "2,002",
     "likes": "1,385",
@@ -137,7 +137,7 @@
     "id": "1d",
     "title": "Secret of Water - 4 ",
     "channel": "Health and Lifestyle Balance",
-    "image": "water_snowflake.png",
+    "image": "theme1-img4.jpg",
     "description": "Water is a living substance...",
     "views": "2,002",
     "likes": "1,385",
@@ -180,7 +180,7 @@
     "id": "1e",
     "title": "Secret of Water-5",
     "channel": "Health and Lifestyle Balance",
-    "image": "water_snowflake.png",
+    "image": "theme1-img1.jpg",
     "description": "Water is a living substance...",
     "views": "2,002",
     "likes": "1,385",
@@ -223,7 +223,7 @@
     "id": "1f",
     "title": "Secret of Water - 6",
     "channel": "Health and Lifestyle Balance",
-    "image": "water_snowflake.png",
+    "image": "theme1-img2.jpg",
     "description": "Water is a living substance...",
     "views": "2,002",
     "likes": "1,385",
@@ -345,6 +345,136 @@
       }
     ]
   },
+  {
+    "theme": {
+      "id": "2",
+      "title": "Theme 2",
+      "description": "Description for Theme 2"
+    },
+    "id": "2c",
+    "title": "Title for Theme 2  - Video 3",
+    "channel": "Meaningful Connections",
+    "image": "theme2-img1.jpeg",
+    "description": "Description for Video 3",
+    "views": "1,000",
+    "likes": "800",
+    "duration": "3:30",
+    "videoUrl": "https://player.vimeo.com/video/123456789",
+    "timestamp": 1630000000000,
+    "directors": "Directors: Director 2",
+    "languages": "Audio Languages: English, Español",
+    "subtitles": "Subtitles: English, Español",
+    "comments": [
+      {
+        "id": "35bba08b-1b51-4153-ba7e-6da76b5ec1b9",
+        "name": "Michael Lyons",
+        "comment": "Distilled water does not have minerals, salt, .... It's pure water, so only molecule H2O. I believe that the mice that drink distilled water died because distilled water attracts (through osmosis) important minerals and other water-soluble nutrients out of the cells. In the long run, these mice die because of a lack of minerals.",
+        "likes": 45,
+        "timestamp": 1628522461000
+      },
+      {
+        "id": "091de676-61af-4ee6-90de-3a7a53af7521",
+        "name": "Gary Coutirier",
+        "comment": "J'ai beaucoup aimé, dorénavant je vais faire jouer de la musique relaxante avant de boire l'eau dans ma carafe.",
+        "likes": 5,
+        "timestamp": 1626359541000
+      },
+      {
+        "id": "66b7d3c7-4023-47f1-a02c-520c9ca187a6",
+        "name": "Theodore Duncan",
+        "comment": "I recently went through Dr. Emoto's book, 'The Hidden Messages In Water'. It is a must-read. I enjoyed this video as much as I enjoyed the book. The video is done fantastically. Thank you so much. This is such an important message.",
+        "likes": 45,
+        "timestamp": 1626011132000
+      }
+    ]
+  },
+  {
+    "theme": {
+      "id": "2",
+      "title": "Theme 2",
+      "description": "Description for Theme 2"
+    },
+    "id": "2d",
+    "title": "Title for Theme 2  - Video 4",
+    "channel": "Meaningful Connections",
+    "image": "theme2-img1.jpeg",
+    "description": "Description for Video 4",
+    "views": "1,000",
+    "likes": "800",
+    "duration": "3:30",
+    "videoUrl": "https://player.vimeo.com/video/123456789",
+    "timestamp": 1630000000000,
+    "directors": "Directors: Director 2",
+    "languages": "Audio Languages: English, Español",
+    "subtitles": "Subtitles: English, Español",
+    "comments": [
+      {
+        "id": "35bba08b-1b51-4153-ba7e-6da76b5ec1b9",
+        "name": "Michael Lyons",
+        "comment": "Distilled water does not have minerals, salt, .... It's pure water, so only molecule H2O. I believe that the mice that drink distilled water died because distilled water attracts (through osmosis) important minerals and other water-soluble nutrients out of the cells. In the long run, these mice die because of a lack of minerals.",
+        "likes": 45,
+        "timestamp": 1628522461000
+      },
+      {
+        "id": "091de676-61af-4ee6-90de-3a7a53af7521",
+        "name": "Gary Coutirier",
+        "comment": "J'ai beaucoup aimé, dorénavant je vais faire jouer de la musique relaxante avant de boire l'eau dans ma carafe.",
+        "likes": 5,
+        "timestamp": 1626359541000
+      },
+      {
+        "id": "66b7d3c7-4023-47f1-a02c-520c9ca187a6",
+        "name": "Theodore Duncan",
+        "comment": "I recently went through Dr. Emoto's book, 'The Hidden Messages In Water'. It is a must-read. I enjoyed this video as much as I enjoyed the book. The video is done fantastically. Thank you so much. This is such an important message.",
+        "likes": 45,
+        "timestamp": 1626011132000
+      }
+    ]
+  },
+  {
+    "theme": {
+      "id": "2",
+      "title": "Theme 2",
+      "description": "Description for Theme 2"
+    },
+    "id": "2e",
+    "title": "Title for Theme 2  - Video 5",
+    "channel": "Meaningful Connections",
+    "image": "theme2-img1.jpeg",
+    "description": "Description for Video 5",
+    "views": "1,000",
+    "likes": "800",
+    "duration": "3:30",
+    "videoUrl": "https://player.vimeo.com/video/123456789",
+    "timestamp": 1630000000000,
+    "directors": "Directors: Director 2",
+    "languages": "Audio Languages: English, Español",
+    "subtitles": "Subtitles: English, Español",
+    "comments": [
+      {
+        "id": "35bba08b-1b51-4153-ba7e-6da76b5ec1b9",
+        "name": "Michael Lyons",
+        "comment": "Distilled water does not have minerals, salt, .... It's pure water, so only molecule H2O. I believe that the mice that drink distilled water died because distilled water attracts (through osmosis) important minerals and other water-soluble nutrients out of the cells. In the long run, these mice die because of a lack of minerals.",
+        "likes": 45,
+        "timestamp": 1628522461000
+      },
+      {
+        "id": "091de676-61af-4ee6-90de-3a7a53af7521",
+        "name": "Gary Coutirier",
+        "comment": "J'ai beaucoup aimé, dorénavant je vais faire jouer de la musique relaxante avant de boire l'eau dans ma carafe.",
+        "likes": 5,
+        "timestamp": 1626359541000
+      },
+      {
+        "id": "66b7d3c7-4023-47f1-a02c-520c9ca187a6",
+        "name": "Theodore Duncan",
+        "comment": "I recently went through Dr. Emoto's book, 'The Hidden Messages In Water'. It is a must-read. I enjoyed this video as much as I enjoyed the book. The video is done fantastically. Thank you so much. This is such an important message.",
+        "likes": 45,
+        "timestamp": 1626011132000
+      }
+    ]
+  },
+
   {
     "theme": {
       "id": "3",
